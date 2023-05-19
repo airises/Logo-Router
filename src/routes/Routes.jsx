@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import Courses from "../pages/courses/Courses";
 import Anouncements from "../pages/anouncements/Anouncements/Anouncemets";
 import MainLayout from "../pages/MainLayout";
@@ -28,8 +28,7 @@ function AppRoutes() {
             </Route>
 
             <Route path="students" element={<Students />} />
-            <Route path="students/:id/details" element={<StudentsDet />}/>
-
+            <Route path="students/:id/details" element={<StudentsDet />} />
 
             <Route path="rating" element={<Rating />} />
           </Route>
@@ -37,6 +36,7 @@ function AppRoutes() {
           <Route path="notifications" element={<Notifiactions />} />
           <Route path="schedule" element={<Schedule />} />
         </Route>
+        <Route path="*" element={<Navigate to="/courses/materials" />} />
       </Routes>
     </div>
   );
