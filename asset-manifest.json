@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Logo-Router/static/css/main.405804b7.css",
+    "main.js": "/Logo-Router/static/js/main.d510f271.js",
+    "index.html": "/Logo-Router/index.html",
+    "main.405804b7.css.map": "/Logo-Router/static/css/main.405804b7.css.map",
+    "main.d510f271.js.map": "/Logo-Router/static/js/main.d510f271.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.405804b7.css",
+    "static/js/main.d510f271.js"
+  ]
+}
